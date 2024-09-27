@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24f69d3b.css",
+    "main.js": "/static/js/main.3fe26cb6.js",
+    "static/js/787.98c79fea.chunk.js": "/static/js/787.98c79fea.chunk.js",
+    "static/media/5.png": "/static/media/5.5d107797d0ddc43c5d70.png",
+    "static/media/3.png": "/static/media/3.e620446b941641425b9f.png",
+    "static/media/picture.jpg": "/static/media/picture.fcebe2f39fd6e537ad86.jpg",
+    "static/media/2.png": "/static/media/2.842211d361a488f69416.png",
+    "static/media/1.png": "/static/media/1.3751187dc4ba13885e9d.png",
+    "static/media/VertigoDisplay.ttf": "/static/media/VertigoDisplay.e8812527bef02fb67925.ttf",
+    "static/media/Gridular.ttf": "/static/media/Gridular.a23765dbce08a5ead139.ttf",
+    "static/media/Aeonik.ttf": "/static/media/Aeonik.6e61e5f765bbcd7d53eb.ttf",
+    "static/media/Season.ttf": "/static/media/Season.3e72a4233b6e522c0c2f.ttf",
+    "static/media/heroImage.png": "/static/media/heroImage.3be9004908e5dab1e384.png",
+    "static/media/Jayesh-Mate-Resume.pdf": "/static/media/Jayesh-Mate-Resume.cf459ef781bd3c7faceb.pdf",
+    "index.html": "/index.html",
+    "main.24f69d3b.css.map": "/static/css/main.24f69d3b.css.map",
+    "main.3fe26cb6.js.map": "/static/js/main.3fe26cb6.js.map",
+    "787.98c79fea.chunk.js.map": "/static/js/787.98c79fea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24f69d3b.css",
+    "static/js/main.3fe26cb6.js"
+  ]
+}
