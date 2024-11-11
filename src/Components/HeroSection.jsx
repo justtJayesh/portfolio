@@ -7,7 +7,7 @@ import heroImg from "../Assets/heroImage.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
-import Jayesh_resume from "../Assets/Resume/Jayesh-Mate-Resume.pdf";
+import Jayesh_resume from "../Assets/Resume/Jayesh_Mate_Resume.pdf";
 // import { textDecoration } from "@chakra-ui/react";
 
 export const HeroSection = () => {

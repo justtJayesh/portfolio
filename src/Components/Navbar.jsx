@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 // import { MoonIcon, SunIcon } from "@chakra-ui/icons";
-import Jayesh_resume from "../Assets/Resume/Jayesh-Mate-Resume.pdf";
+import Jayesh_resume from "../Assets/Resume/Jayesh_Mate_Resume.pdf";
 // import favicon from "../Assets/dh.png";
 // import { NavLink } from "react-router-dom";
 import React from "react";
