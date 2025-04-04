@@ -27,7 +27,9 @@ import {
     SiMongodb,
     SiPostman,
     SiRedux,
-    SiDrizzle,
+    SiPrisma,
+    SiPostgresql,
+    SiTypescript,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 const Feature = ({ text, icon, iconBg }) => {
@@ -201,6 +203,21 @@ export default function Skills() {
                                     )}
                                     text={"Nextjs"}
                                 />
+                                <Feature
+                                    icon={
+                                        <Icon
+                                            as={SiTypescript}
+                                            color={"black.500"}
+                                            w={5}
+                                            h={5}
+                                        />
+                                    }
+                                    iconBg={useColorModeValue(
+                                        "gray.100",
+                                        "gray.100"
+                                    )}
+                                    text={"TypeScript"}
+                                />
                             </Stack>
                             <Stack
                                 spacing={5}
@@ -307,7 +324,7 @@ export default function Skills() {
                                 <Feature
                                     icon={
                                         <Icon
-                                            as={"SiDrizzle"}
+                                            as={SiPrisma}
                                             color={"yellow.500"}
                                             w={5}
                                             h={5}
@@ -317,7 +334,22 @@ export default function Skills() {
                                         "yellow.100",
                                         "yellow.900"
                                     )}
-                                    text={"Drizzle ORM"}
+                                    text={"Prisma"}
+                                />
+                                <Feature
+                                    icon={
+                                        <Icon
+                                            as={SiPostgresql}
+                                            color={"blue.700"}
+                                            w={5}
+                                            h={5}
+                                        />
+                                    }
+                                    iconBg={useColorModeValue(
+                                        "blue.100",
+                                        "blue.900"
+                                    )}
+                                    text={"Postgresql"}
                                 />
                             </Stack>
                         </HStack>

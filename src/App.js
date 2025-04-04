@@ -31,7 +31,7 @@ function App() {
                 textAlign={"center"}
                 m={"20px auto"}
             >
-                Copyright ©2024 All rights reserved{" "}
+                Copyright ©2025 All rights reserved{" "}
             </Text>
         </div>
     );
