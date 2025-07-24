@@ -13,7 +13,7 @@ import Jayesh_resume from "../Assets/Resume/Jayesh_Mate_Resume.pdf";
 export const HeroSection = () => {
     const handleResume = () => {
         window.open(
-            "https://drive.google.com/file/d/1T788dHvoZIeotEcH_pP-8SnKER1HmARW/view?usp=share_link"
+            "https://drive.google.com/file/d/1BhZJtOQVZQAT6Rkm0wxVgCZuym1WVBh4/view?usp=drive_link"
         );
     };
 
