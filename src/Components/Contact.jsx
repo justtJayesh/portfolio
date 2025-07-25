@@ -7,7 +7,6 @@ import {
     Text,
     VStack,
 } from "@chakra-ui/react";
-import React from "react";
 import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -17,8 +16,6 @@ const Contact = () => {
         <div id="contact">
             <Box
                 w={{ lg: "72%", base: "90%" }}
-                // h={"192px"}
-                // border={"1px solid black"}
                 margin={"60px auto"}
                 display={"flex"}
                 flexDirection={"column"}
@@ -61,7 +58,7 @@ const Contact = () => {
                         >
                             <HStack>
                                 <FontAwesomeIcon icon={faPhone} />
-                                <Text id="contact-phone">: +917776044640</Text>
+                                <Text id="contact-phone">: +91 7776044640</Text>
                             </HStack>
                             <HStack>
                                 <FontAwesomeIcon icon={faEnvelope} />

@@ -13,31 +13,11 @@ import {
     Text,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-// import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import Jayesh_resume from "../Assets/Resume/Jayesh_Mate_Resume.pdf";
-// import favicon from "../Assets/dh.png";
-// import { NavLink } from "react-router-dom";
 import React from "react";
-// const Links = ["Home", "About Me", "Skills", "Projects", "Contact", "Resume"];
 
-// const NavLink = ({ children }) => (
-//     <Link
-//         px={2}
-//         py={1}
-//         rounded={"md"}
-//         fontSize={"large"}
-//         _hover={{
-//             textDecoration: "none",
-//             bg: useColorModeValue("gray.100", "gray.700"),
-//         }}
-//         href={"#contact"}
-//     >
-//         <span>{children}</span>
-//     </Link>
-// );
 
 export default function Navbar() {
-    // const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     const [click, setClick] = React.useState(false);
@@ -55,7 +35,7 @@ export default function Navbar() {
             style={{
                 position: "sticky",
                 top: 0,
-                zIndex: "1",
+                zIndex: "2",
                 backgroundColor: "white",
             }}
         >

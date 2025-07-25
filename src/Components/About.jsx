@@ -1,5 +1,10 @@
 import { Box, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import profilePicture from "../Assets/picture.jpg";
+import sticker1 from "../Assets/stickers/web.png";
+import sticker2 from "../Assets/stickers/programmer.png";
+import sticker3 from "../Assets/stickers/game-development.png";
+import sticker4 from "../Assets/stickers/internet.png";
+import sticker5 from "../Assets/stickers/videogame.png";
 
 export const About = () => {
     return (
@@ -9,6 +14,8 @@ export const About = () => {
                 display="flex"
                 minH="75vh"
                 alignItems="center"
+                position={"relative"}
+                py={{ base: 10, md: 10, lg: 0 }}
             >
                 <Box w={"72%"} margin={"auto"} color="white">
                     <Stack
@@ -61,6 +68,77 @@ export const About = () => {
                             <Image src={profilePicture} borderRadius={"2%"} />
                         </Box>
                     </Stack>
+                </Box>
+
+                <Box display={{ base: "none", lg: "block" }}>
+                    <img
+                        src={sticker1}
+                        alt="sticker-1"
+                        style={{
+                            position: "absolute",
+                            top: "6%",
+                            left: "5%",
+                            zIndex: 1,
+                            width: "8%",
+                            rotate: "-20deg",
+                        }}
+                    />
+                </Box>
+                <Box display={{ base: "none", lg: "block" }}>
+                    <img
+                        src={sticker2}
+                        alt="sticker-2"
+                        style={{
+                            position: "absolute",
+                            bottom: "10px",
+                            left: "12%",
+                            zIndex: 1,
+                            rotate: "-12deg",
+                            width: "8%",
+                        }}
+                    />
+                </Box>
+                <Box display={{ base: "none", lg: "block" }}>
+                    <img
+                        src={sticker3}
+                        alt="sticker-3"
+                        style={{
+                            position: "absolute",
+                            top: "53%",
+                            right: "7%",
+                            zIndex: 1,
+                            rotate: "30deg",
+                            width: "8%",
+                        }}
+                    />
+                </Box>
+                <Box display={{ base: "none", lg: "block" }}>
+                    <img
+                        src={sticker4}
+                        alt="sticker-4"
+                        style={{
+                            position: "absolute",
+                            top: "10%",
+                            right: "44%",
+                            zIndex: 1,
+                            rotate: "-10deg",
+                            width: "8%",
+                        }}
+                    />
+                </Box>
+                <Box display={{ base: "none", lg: "block" }}>
+                    <img
+                        src={sticker5}
+                        alt="sticker-5"
+                        style={{
+                            position: "absolute",
+                            bottom: "15%",
+                            right: "35%",
+                            zIndex: 1,
+                            rotate: "30deg",
+                            width: "8%",
+                        }}
+                    />
                 </Box>
             </Box>
         </div>
