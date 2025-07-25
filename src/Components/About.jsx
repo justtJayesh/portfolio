@@ -1,6 +1,6 @@
 import { Box, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import profilePicture from "../Assets/picture.jpg";
-import sticker1 from "../Assets/stickers/web.png";
+// import sticker1 from "../Assets/stickers/web.png";
 import sticker2 from "../Assets/stickers/programmer.png";
 import sticker3 from "../Assets/stickers/game-development.png";
 import sticker4 from "../Assets/stickers/internet.png";
@@ -10,7 +10,7 @@ export const About = () => {
     return (
         <div id="about">
             <Box
-                backgroundColor="#f0f0f0ff"
+                backgroundColor="#ffffffff"
                 display="flex"
                 minH="75vh"
                 alignItems="center"
@@ -70,7 +70,7 @@ export const About = () => {
                     </Stack>
                 </Box>
 
-                <Box display={{ base: "none", lg: "block" }}>
+                {/* <Box display={{ base: "none", lg: "block" }}>
                     <img
                         src={sticker1}
                         alt="sticker-1"
@@ -78,12 +78,12 @@ export const About = () => {
                             position: "absolute",
                             top: "6%",
                             left: "5%",
+                            rotate: "10deg",
                             zIndex: 1,
                             width: "8%",
-                            rotate: "-20deg",
                         }}
                     />
-                </Box>
+                </Box> */}
                 <Box display={{ base: "none", lg: "block" }}>
                     <img
                         src={sticker2}
@@ -93,7 +93,7 @@ export const About = () => {
                             bottom: "10px",
                             left: "12%",
                             zIndex: 1,
-                            rotate: "-12deg",
+                            rotate: "-25deg",
                             width: "8%",
                         }}
                     />
@@ -104,8 +104,8 @@ export const About = () => {
                         alt="sticker-3"
                         style={{
                             position: "absolute",
-                            top: "53%",
-                            right: "7%",
+                            top: "40%",
+                            right: "4%",
                             zIndex: 1,
                             rotate: "30deg",
                             width: "8%",
@@ -118,8 +118,8 @@ export const About = () => {
                         alt="sticker-4"
                         style={{
                             position: "absolute",
-                            top: "10%",
-                            right: "44%",
+                            top: "7%",
+                            right: "50%",
                             zIndex: 1,
                             rotate: "-10deg",
                             width: "8%",
