@@ -2,7 +2,6 @@ import { Button } from "@chakra-ui/button";
 import { useColorModeValue } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
 import { Box, Heading, HStack, Stack, Text, Link } from "@chakra-ui/layout";
-import React from "react";
 import heroImg from "../Assets/heroImage.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
